@@ -35,7 +35,18 @@ public class KMPagingViewController: UIViewController {
         }
     }
     
-    fileprivate var currentIndex: Int = 0
+    fileprivate var currentIndex: Int = 0 {
+        didSet {
+            let vc = viewControllers[currentIndex]
+            if let delegate = delegate {
+                delegate.pagingController(self, didFinish: vc, currentIndex: currentIndex)
+            }
+            
+            if let callBack = didFinishPagingCallBack {
+                callBack(vc, currentIndex)
+            }
+        }
+    }
     
     fileprivate var pageVc: UIPageViewController!
     
@@ -141,13 +152,6 @@ extension KMPagingViewController: UIPageViewControllerDelegate, UIPageViewContro
         guard let vc = pageViewController.viewControllers?.first else {return}
         let index = indexForViewController(controller: vc)
         currentIndex = index
-        if let delegate = delegate {
-            delegate.pagingController(self, didFinish: vc, currentIndex: index)
-        }
-        
-        if let callBack = didFinishPagingCallBack {
-            callBack(vc, index)
-        }
     }
 }
 
