@@ -1,0 +1,6 @@
+framework module Pods_KMPageMenu_Tests {
+  umbrella header "Pods-KMPageMenu_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

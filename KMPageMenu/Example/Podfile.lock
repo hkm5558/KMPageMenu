@@ -1,0 +1,16 @@
+PODS:
+  - KMPageMenu (0.1.0)
+
+DEPENDENCIES:
+  - KMPageMenu (from `../`)
+
+EXTERNAL SOURCES:
+  KMPageMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KMPageMenu: 08c49eb0e2209243bcdd5e73910d2885b2de7421
+
+PODFILE CHECKSUM: cdedcedafb5b4894a18fd415a4b66673b6c21080
+
+COCOAPODS: 1.5.0

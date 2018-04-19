@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="KMPageMenu_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="FUt-9L-dlh">
+            <objects>
+                <viewController storyboardIdentifier="SettingViewController" id="qqY-cN-25s" customClass="SettingViewController" customModule="KMPageMenu_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lAS-e7-TGS"/>
+                        <viewControllerLayoutGuide type="bottom" id="pUK-h4-dqI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MQu-HX-66Q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="crA-92-XES">
+                                <rect key="frame" x="50" y="272" width="275" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="1lB-D9-CQ7"/>
+                                </constraints>
+                                <state key="normal" title="切换指示器宽度">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQO-Uh-M54">
+                                <rect key="frame" x="50" y="356" width="275" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Xqh-51-TxW"/>
+                                </constraints>
+                                <state key="normal" title="切换横线指示器位置">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiR-b2-E0w">
+                                <rect key="frame" x="50" y="188" width="275" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="KbB-aV-Jcp"/>
+                                </constraints>
+                                <state key="normal" title="切换指示器类型">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sUC-4h-DXf">
+                                <rect key="frame" x="50" y="100" width="275" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="xvu-Jt-V7e"/>
+                                </constraints>
+                                <state key="normal" title="切换标题宽度">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xiR-b2-E0w" firstAttribute="top" secondItem="sUC-4h-DXf" secondAttribute="bottom" constant="44" id="3ka-bk-30n"/>
+                            <constraint firstItem="UQO-Uh-M54" firstAttribute="top" secondItem="crA-92-XES" secondAttribute="bottom" constant="40" id="DeG-kI-4ce"/>
+                            <constraint firstItem="UQO-Uh-M54" firstAttribute="leading" secondItem="MQu-HX-66Q" secondAttribute="leading" constant="50" id="Gcs-F7-cEM"/>
+                            <constraint firstItem="sUC-4h-DXf" firstAttribute="leading" secondItem="MQu-HX-66Q" secondAttribute="leading" constant="50" id="NPz-Bt-9Fa"/>
+                            <constraint firstItem="sUC-4h-DXf" firstAttribute="top" secondItem="lAS-e7-TGS" secondAttribute="bottom" constant="80" id="SKd-4W-X3u"/>
+                            <constraint firstAttribute="trailing" secondItem="sUC-4h-DXf" secondAttribute="trailing" constant="50" id="URn-Vm-OEa"/>
+                            <constraint firstAttribute="trailing" secondItem="crA-92-XES" secondAttribute="trailing" constant="50" id="YqL-V2-m74"/>
+                            <constraint firstItem="xiR-b2-E0w" firstAttribute="leading" secondItem="MQu-HX-66Q" secondAttribute="leading" constant="50" id="b6H-Fq-Pl7"/>
+                            <constraint firstItem="crA-92-XES" firstAttribute="leading" secondItem="MQu-HX-66Q" secondAttribute="leading" constant="50" id="isQ-zw-QB0"/>
+                            <constraint firstAttribute="trailing" secondItem="UQO-Uh-M54" secondAttribute="trailing" constant="50" id="nH0-5y-m8w"/>
+                            <constraint firstAttribute="trailing" secondItem="xiR-b2-E0w" secondAttribute="trailing" constant="50" id="nnn-hw-knW"/>
+                            <constraint firstItem="crA-92-XES" firstAttribute="top" secondItem="xiR-b2-E0w" secondAttribute="bottom" constant="40" id="sRo-WD-jOe"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="changeIndicatorType" destination="xiR-b2-E0w" id="8LM-wW-sOz"/>
+                        <outlet property="changeIndicatorWidthType" destination="crA-92-XES" id="tMZ-Yo-Es3"/>
+                        <outlet property="changeLineIndicatorPosition" destination="UQO-Uh-M54" id="rul-PH-htZ"/>
+                        <outlet property="changeTitleLabelWidthType" destination="sUC-4h-DXf" id="LUO-20-VvK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i6L-gn-2CI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="958" y="134"/>
+        </scene>
+    </scenes>
+</document>

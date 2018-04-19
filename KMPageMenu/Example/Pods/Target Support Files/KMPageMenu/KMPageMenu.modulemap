@@ -1,0 +1,6 @@
+framework module KMPageMenu {
+  umbrella header "KMPageMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
