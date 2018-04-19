@@ -1,8 +1,9 @@
 # KMPageMenu
 
-[![Version](https://img.shields.io/cocoapods/v/KMPageMenu.svg?style=flat)](http://cocoapods.org/pods/KMPageMenu)
-[![License](https://img.shields.io/cocoapods/l/KMPageMenu.svg?style=flat)](http://cocoapods.org/pods/KMPageMenu)
-[![Platform](https://img.shields.io/cocoapods/p/KMPageMenu.svg?style=flat)](http://cocoapods.org/pods/KMPageMenu)
+<img src="https://img.shields.io/badge/Swift-4.0-orange.svg" />
+<a href="https://cocoapods.org/pods/KMPageMenu">
+<img src="https://img.shields.io/cocoapods/v/KMPageMenu.svg" alt="CocoaPods" />
+</a>
 
 <img src="https://github.com/hkm5558/KMPageMenu/blob/master/Screenshot/截图1.jpg" width="256">
 <img src="https://github.com/hkm5558/KMPageMenu/blob/master/Screenshot/截图2.jpg" width="256">
