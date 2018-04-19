@@ -1,5 +1,5 @@
 PODS:
-  - KMPageMenu (0.1.0)
+  - KMPageMenu (0.0.1)
 
 DEPENDENCIES:
   - KMPageMenu (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KMPageMenu: 08c49eb0e2209243bcdd5e73910d2885b2de7421
+  KMPageMenu: 41a3a3e9735e57efd051334d09343a9aa9ee9826
 
 PODFILE CHECKSUM: cdedcedafb5b4894a18fd415a4b66673b6c21080
 

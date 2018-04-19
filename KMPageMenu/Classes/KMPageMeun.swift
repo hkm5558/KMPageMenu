@@ -78,7 +78,7 @@ public struct KMPageMenuStyle {
         }
     }
     
-    private var titleLabels: [UILabel] = []
+    fileprivate var titleLabels: [UILabel] = []
     
     public private(set) var selectIndex = 0
     
@@ -348,7 +348,7 @@ public struct KMPageMenuStyle {
     }
     
     /// 设置选中
-    private func applySelected(index: Int, animated: Bool = true) {
+    fileprivate func applySelected(index: Int, animated: Bool = true) {
         DispatchQueue.main.async { [weak self] in
             guard let `self` = self else { return }
             let currentLabel = self.titleLabels[index]

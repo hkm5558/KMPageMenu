@@ -1,12 +1,10 @@
 # KMPageMenu
 
-<img src="https://img.shields.io/badge/Swift-4.0-orange.svg" />
-<a href="https://cocoapods.org/pods/KMPageMenu">
+<img src="https://img.shields.io/badge/Swift-4.0-orange.svg" />  <a href="https://cocoapods.org/pods/KMPageMenu">
 <img src="https://img.shields.io/cocoapods/v/KMPageMenu.svg" alt="CocoaPods" />
 </a>
 
-<img src="https://github.com/hkm5558/KMPageMenu/blob/master/Screenshot/截图1.jpg" width="256">
-<img src="https://github.com/hkm5558/KMPageMenu/blob/master/Screenshot/截图2.jpg" width="256">
+<img src="https://github.com/hkm5558/KMPageMenu/blob/master/Screenshot/截图1.jpg" width="256">  <img src="https://github.com/hkm5558/KMPageMenu/blob/master/Screenshot/截图2.jpg" width="256">
     
 ## Installation with CocoaPods
 

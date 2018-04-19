@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C607D5F2DA3E8630F19C158D18F5452 /* KMPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0E56983083F9D2F700D1AC6C2E0313 /* KMPagingViewController.swift */; };
+		09E27E39F80FDA3015804AB9CEAA84D2 /* KMPageMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C492051F477072C84E863B43247E24FC /* KMPageMenu-dummy.m */; };
+		22FE9717D01DDD0916407278845C7509 /* KMPageMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16249EFA353E7811C2788CB022A934AD /* KMPageMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2802BC723AF40355B3FE6E9651A6D84E /* Pods-KMPageMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FE26F9FFC4157121FAFD131CA3F32F /* Pods-KMPageMenu_Tests-dummy.m */; };
-		2D8A0DA939A953FD9368AB7D72521952 /* KMPageMeun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C31C764D4A4F2D07D72E442B5E45F46 /* KMPageMeun.swift */; };
-		694CA1DC688E1872607C483BF1C9529A /* KMPageMeunEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A53F3DC5D853BA953BD1D0C5C267B0 /* KMPageMeunEnum.swift */; };
-		716ABDC7A65AA454E7841E6CE814953A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7B309DACF28BEDE625A5CD2B831A7612 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3D6C694F7B77AFAB93A21625CE0A68F4 /* KMPageMeun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C31C764D4A4F2D07D72E442B5E45F46 /* KMPageMeun.swift */; };
+		5CA9ED2512E5EF51755D543EF5A503C1 /* KMPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0E56983083F9D2F700D1AC6C2E0313 /* KMPagingViewController.swift */; };
+		64D66E6E157BDF789B04D979FF28E48E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		7B309DACF28BEDE625A5CD2B831A7612 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		7E651C4D38510F7653379C199FDB0C29 /* Pods-KMPageMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 369924F9049907181C53056E9E870B4E /* Pods-KMPageMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C0F1A05687CB601311B14ED5D99FDB /* KMPageMeunEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A53F3DC5D853BA953BD1D0C5C267B0 /* KMPageMeunEnum.swift */; };
 		983B1E32E2FC6D004D0A28E2D56ED6D8 /* Pods-KMPageMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0B5836D636D5498BEA5DD9D2A052EF /* Pods-KMPageMenu_Example-dummy.m */; };
-		A8495E3DF9FEB6044F34C7427FEAF44E /* KMPageMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C492051F477072C84E863B43247E24FC /* KMPageMenu-dummy.m */; };
 		C9C6E1DAB2B7D22B8A553A23A274190F /* Pods-KMPageMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 993256F4A70B6D0ACC69B57C9BEB29CF /* Pods-KMPageMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D43F88FEA597D131C9777F24B37F8E1A /* KMPageMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16249EFA353E7811C2788CB022A934AD /* KMPageMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E599D0E8217DB3CD0DBAB0E0FD4A207F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E599D0E8217DB3CD0DBAB0E0FD4A207F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F29A6866500CB70143B9E6409B3CEBBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 25A8E1CAFCFFDAC9ADC00561E14117BC;
+			remoteGlobalIDString = A1F183EF67AFDFBEA0DA1CE64FDBEFE3;
 			remoteInfo = KMPageMenu;
 		};
 /* End PBXContainerItemProxy section */
@@ -57,7 +58,6 @@
 		5166E08C5A01A1CE5C0F30EE31F77F60 /* Pods-KMPageMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KMPageMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		56A53F3DC5D853BA953BD1D0C5C267B0 /* KMPageMeunEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KMPageMeunEnum.swift; path = KMPageMenu/Classes/KMPageMeunEnum.swift; sourceTree = "<group>"; };
 		58B52238DF9A5C6A39BECA3BA7DF2553 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		71D9EFFD7E4F01FA8AD477B22503D794 /* Pods-KMPageMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KMPageMenu_Example.modulemap"; sourceTree = "<group>"; };
 		75686FA96FCF05887B05A1063E59F89E /* Pods-KMPageMenu_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KMPageMenu_Example-resources.sh"; sourceTree = "<group>"; };
 		8C31C764D4A4F2D07D72E442B5E45F46 /* KMPageMeun.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KMPageMeun.swift; path = KMPageMenu/Classes/KMPageMeun.swift; sourceTree = "<group>"; };
@@ -70,11 +70,13 @@
 		AF0E56983083F9D2F700D1AC6C2E0313 /* KMPagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KMPagingViewController.swift; path = KMPageMenu/Classes/KMPagingViewController.swift; sourceTree = "<group>"; };
 		B249D9B50668794326F092F34C7269C5 /* Pods-KMPageMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KMPageMenu_Tests.modulemap"; sourceTree = "<group>"; };
 		B2AFA38F054C9F22A52AF6BE695D4964 /* Pods-KMPageMenu_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KMPageMenu_Tests-resources.sh"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BB90ED860D332D0A531BFE04041837EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C492051F477072C84E863B43247E24FC /* KMPageMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KMPageMenu-dummy.m"; sourceTree = "<group>"; };
 		CA9B81FAD07097198F47A33F4E0A6070 /* Pods-KMPageMenu_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KMPageMenu_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CF39A5579348BD70805F4D9AFC2CA026 /* KMPageMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KMPageMenu.framework; path = KMPageMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4788EBF158F483F62A38242201C484B /* KMPageMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMPageMenu-prefix.pch"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F366CFD2FC1967F136900D72E30A004D /* Pods-KMPageMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KMPageMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,19 +89,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		28C642B3428F1AF30263C566BF469524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29A6866500CB70143B9E6409B3CEBBD /* Foundation.framework in Frameworks */,
+				64D66E6E157BDF789B04D979FF28E48E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64194411360A85E834E901135CCC7CF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7B309DACF28BEDE625A5CD2B831A7612 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC0420E1FA94BB91FC735BA14BA90952 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				716ABDC7A65AA454E7841E6CE814953A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +117,23 @@
 				9238A4EA5A304D3ACFFA0C598B13CE14 /* Pods_KMPageMenu_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		511A24B37F1901F0B8A7A4A291DB7F43 /* Development Pods */ = {
@@ -160,7 +180,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				511A24B37F1901F0B8A7A4A291DB7F43 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				2A54C7023DC3865DC495E21ADBCB0994 /* Products */,
 				7F01D0158B484AEF0E12708806B30AE9 /* Targets Support Files */,
 			);
@@ -175,14 +195,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C96253F2CF53DF6EC50635BA51C05999 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,14 +207,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/KMPageMenu";
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		D460DC5D9B81CC5E6837CF28B773A36C /* Pod */ = {
@@ -236,11 +240,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		52D7E0AF7177BEADDE1F1F8E5A604E2B /* Headers */ = {
+		1EBCC641E99528E47985EBA55D883C81 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D43F88FEA597D131C9777F24B37F8E1A /* KMPageMenu-umbrella.h in Headers */,
+				22FE9717D01DDD0916407278845C7509 /* KMPageMenu-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,13 +303,13 @@
 			productReference = 9238A4EA5A304D3ACFFA0C598B13CE14 /* Pods_KMPageMenu_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		25A8E1CAFCFFDAC9ADC00561E14117BC /* KMPageMenu */ = {
+		A1F183EF67AFDFBEA0DA1CE64FDBEFE3 /* KMPageMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F930C1B320B53B517C60DB1D6BB32DE /* Build configuration list for PBXNativeTarget "KMPageMenu" */;
+			buildConfigurationList = 971785A65B5568A456194821321CA4EF /* Build configuration list for PBXNativeTarget "KMPageMenu" */;
 			buildPhases = (
-				DA0541E24C8E7A632B747D6664A6B848 /* Sources */,
-				BC0420E1FA94BB91FC735BA14BA90952 /* Frameworks */,
-				52D7E0AF7177BEADDE1F1F8E5A604E2B /* Headers */,
+				0E6AD8868AE5FB7CD825FB9C30DA522C /* Sources */,
+				28C642B3428F1AF30263C566BF469524 /* Frameworks */,
+				1EBCC641E99528E47985EBA55D883C81 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -337,7 +341,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				25A8E1CAFCFFDAC9ADC00561E14117BC /* KMPageMenu */,
+				A1F183EF67AFDFBEA0DA1CE64FDBEFE3 /* KMPageMenu */,
 				1B7DCFBC7A0BFE837973C92939418DBE /* Pods-KMPageMenu_Example */,
 				20A37FCF470D33616D767BE285F202B3 /* Pods-KMPageMenu_Tests */,
 			);
@@ -345,6 +349,17 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0E6AD8868AE5FB7CD825FB9C30DA522C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E27E39F80FDA3015804AB9CEAA84D2 /* KMPageMenu-dummy.m in Sources */,
+				3D6C694F7B77AFAB93A21625CE0A68F4 /* KMPageMeun.swift in Sources */,
+				92C0F1A05687CB601311B14ED5D99FDB /* KMPageMeunEnum.swift in Sources */,
+				5CA9ED2512E5EF51755D543EF5A503C1 /* KMPagingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C8AA23D13BC632CE2584C669EF2F347 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,24 +376,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA0541E24C8E7A632B747D6664A6B848 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8495E3DF9FEB6044F34C7427FEAF44E /* KMPageMenu-dummy.m in Sources */,
-				2D8A0DA939A953FD9368AB7D72521952 /* KMPageMeun.swift in Sources */,
-				694CA1DC688E1872607C483BF1C9529A /* KMPageMeunEnum.swift in Sources */,
-				1C607D5F2DA3E8630F19C158D18F5452 /* KMPagingViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		368DFEAC130B5C83CF5B828B4A2D0BDF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KMPageMenu;
-			target = 25A8E1CAFCFFDAC9ADC00561E14117BC /* KMPageMenu */;
+			target = A1F183EF67AFDFBEA0DA1CE64FDBEFE3 /* KMPageMenu */;
 			targetProxy = 7B900652CEB1A291D8FA3138EF200C0C /* PBXContainerItemProxy */;
 		};
 		444A0CB129DB79C895B72D49025A8067 /* PBXTargetDependency */ = {
@@ -390,7 +394,40 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06FF2A8CBC5FF483F3ECBC0B97AAC08C /* Debug */ = {
+		09EB2A66C8B88A0273AFA2CA72B45207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040480074DD7930DCE3E90E6BF732530 /* KMPageMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KMPageMenu/KMPageMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KMPageMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KMPageMenu/KMPageMenu.modulemap";
+				PRODUCT_MODULE_NAME = KMPageMenu;
+				PRODUCT_NAME = KMPageMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1365A32D677CC5C5662B73F95655A096 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 040480074DD7930DCE3E90E6BF732530 /* KMPageMenu.xcconfig */;
 			buildSettings = {
@@ -554,39 +591,6 @@
 			};
 			name = Debug;
 		};
-		26EFE8FE444BAEDA2E22EAA9D877EC30 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 040480074DD7930DCE3E90E6BF732530 /* KMPageMenu.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KMPageMenu/KMPageMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KMPageMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KMPageMenu/KMPageMenu.modulemap";
-				PRODUCT_MODULE_NAME = KMPageMenu;
-				PRODUCT_NAME = KMPageMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		C77A1B997D667CE19D7CC595E9A5F573 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0E8B24E18DB1D0990E374E5154660167 /* Pods-KMPageMenu_Tests.debug.xcconfig */;
@@ -743,11 +747,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F930C1B320B53B517C60DB1D6BB32DE /* Build configuration list for PBXNativeTarget "KMPageMenu" */ = {
+		971785A65B5568A456194821321CA4EF /* Build configuration list for PBXNativeTarget "KMPageMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06FF2A8CBC5FF483F3ECBC0B97AAC08C /* Debug */,
-				26EFE8FE444BAEDA2E22EAA9D877EC30 /* Release */,
+				1365A32D677CC5C5662B73F95655A096 /* Debug */,
+				09EB2A66C8B88A0273AFA2CA72B45207 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

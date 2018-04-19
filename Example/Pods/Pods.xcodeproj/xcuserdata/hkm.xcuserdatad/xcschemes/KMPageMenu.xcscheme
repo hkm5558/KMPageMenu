@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25A8E1CAFCFFDAC9ADC00561E14117BC"
+               BlueprintIdentifier = "A1F183EF67AFDFBEA0DA1CE64FDBEFE3"
                BlueprintName = "KMPageMenu"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "KMPageMenu.framework">
